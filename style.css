@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.navbar-brand{
+	font-size: 2rem !important;
+	letter-spacing: 1x;
+	margin-top: -10px;
+	margin-left: 3px !important;;
+	margin-right: 10px !important;
+}
+.active{
+	color: #f81a5c !important;
+}
+.collapse form{
+	margin-left: 50px !important;
+}
+.navbar-nav li{
+	padding-right: 1rem;
+	padding-left: 15px;
+}
+.navbar-nav li img{
+	width: 20px;
+}
+.main{
+	background: url(img/pexels-edward-eyer-1049626.jpg);
+	background-size: cover;
+	height: 93vh;
+	background-position: 50% 50%;
+
+}
+.main2{
+	background: url(img/pexels-brigitte-tohm-239581.jpg);
+	background-size: cover;
+	height: 93vh;
+	background-position: 50% 50%;
+	
+}
+.main2 h1{
+	font-size: 4rem;
+	font-weight: 650;
+	color: #fff !important;
+}
+.foods{
+	font-size: 3.5rem;
+	font-weight: 800;
+}
+.col-lg-3:hover{
+	box-shadow: 5px 2px 14px -2px rgba(49,49,49,0.71);
+	-webkit-box-shadow: 5px 2px 14px -2px rgba(49,49,49,0.71);
+	-moz-box-shadow: 5px 2px 14px -2px rgba(49,49,49,0.71);
+	transition: 0.5s;
+}
+.trending1{
+	background: url(img/pexels-jonathan-borba-2983101.jpg);
+	background-size: cover;
+	height: 60vh;
+	background-position: 50% 50%;
+}
+.trending2{
+	background: url(img/pexels-brigitte-tohm-239581.jpg);
+	background-size: cover;
+	height: 60vh;
+	background-position: 50% 50%;
+}
+.trending3{
+	background: url(img/pexels-edward-eyer-1049626.jpg);
+	background-size: cover;
+	height: 60vh;
+	background-position: 50% 50%;
+}
+.trending4{
+	background: url(img/pexels-trang-doan-1128678.jpg);
+	background-size: cover;
+	height: 60vh;
+	background-position: 50% 50%;
+}
+.contact-bg{
+	background: url(img/contact.jpg);
+	background-size: cover;
+	height: 100vh;
+	background-position: 80% 20%;
+}
+
+.row a{
+	text-decoration: none !important;
+	color: #212529;
+}
+.col-lg-5 .card-body{
+	background: #f1f1f1;
+}
